@@ -16,6 +16,6 @@ public class InsuranceDecorator extends ShipmentDecorator {
     @Override public double getCost() {
         // TODO (4d): คืน cost ของตัวที่ห่อ บวกด้วย 10% ของราคาสินค้าใน order
         //   hint: wrappedShipment.getCost() + order.getTotalPrice() * 0.10
-        return /* ====== replace this ====== */ wrappedShipment.getCost() + order.getTotalPrice() * 0.10    ;
+        return /* ====== replace this ====== */ wrappedShipment.getCost() + order.getTotalPrice() * 0.1;
     }
 }
